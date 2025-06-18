@@ -1,1 +1,0 @@
-C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega\Modulo_3\C#\Sesion_27\Skycast\skyCast\bin\Release\net8.0\publish\web.config
