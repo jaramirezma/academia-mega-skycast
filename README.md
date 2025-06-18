@@ -1,1 +1,0 @@
-# academia-mega-skycast
