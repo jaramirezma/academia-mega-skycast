@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bzxit9uFJYY=",
+  "dgSpecHash": "+4xt/HP4iJo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\skyCast\\SkyCast.csproj",
+  "projectFilePath": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\skycast\\SkyCast.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaramirezma\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.15\\microsoft.aspnetcore.authorization.8.0.15.nupkg.sha512",
     "C:\\Users\\jaramirezma\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.15\\microsoft.aspnetcore.components.8.0.15.nupkg.sha512",

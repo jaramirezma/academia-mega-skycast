@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SkyCast",
   "resources": {
-    "hash": "sha256-GCl4D0ihvXE/JLTyJazZhSYkgDnq0ZMSEHPwzE++JRg=",
+    "hash": "sha256-3YTorijVT6zcLYWA7uqBM6hMJqPpI8EUE4SLs7L79q0=",
     "jsModuleNative": {
       "dotnet.native.8.0.15.ku07ots9qh.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -215,10 +215,10 @@
       "mscorlib.wasm": "sha256-BeLfFpg9iS3DkEdywsYY7sV6ML3knqkMaMq0JBEbWlw=",
       "netstandard.wasm": "sha256-VkjUtJ6DK5bFTc2JwwGHmQY3tBcNSC7zMSJXuiXcnJA=",
       "System.Private.CoreLib.wasm": "sha256-VIQEPUSb48N39LR+ncGDP5xU02xuRbyZU8MhMho26wQ=",
-      "SkyCast.wasm": "sha256-tw7NqntZbkJInEq5RMcBuRxRNcpOC3Jn4KEGUqyxS2M="
+      "SkyCast.wasm": "sha256-eE959dqrmYi75LHIUXmqBxgfHi3aPEBx3FsfmiQs82U="
     },
     "pdb": {
-      "SkyCast.pdb": "sha256-sZNiHavjY8FpuATKns6ZaFCOWGY6dM/mH+EUtn7OoDg="
+      "SkyCast.pdb": "sha256-MKm1RH3aQsfsfyetUo91cWtuRsMZoZPndmoEzS97nMY="
     }
   },
   "cacheBootResources": true,

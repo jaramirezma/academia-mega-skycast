@@ -2360,11 +2360,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\SkyCast\\SkyCast.csproj",
+      "projectUniqueName": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast.csproj",
       "projectName": "SkyCast",
-      "projectPath": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\SkyCast\\SkyCast.csproj",
+      "projectPath": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast.csproj",
       "packagesPath": "C:\\Users\\jaramirezma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\SkyCast\\obj\\",
+      "outputPath": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

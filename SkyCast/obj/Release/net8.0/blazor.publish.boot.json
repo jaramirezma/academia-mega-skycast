@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SkyCast",
   "resources": {
-    "hash": "sha256-9NxnD33+/t4ySKb+D5GYV1XoISGgOquYW/ldW1wYExc=",
+    "hash": "sha256-TIU31SGk1mhg4gzhRja2PI20sX7JCphOg78nEML5YxY=",
     "jsModuleNative": {
       "dotnet.native.8.0.15.ku07ots9qh.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -38,7 +38,7 @@
       "netstandard.wasm": "sha256-ZHHjnObLqoiR4bLA0uRsZhFKK2MWNOOW2Aef5Dzellk=",
       "Polly.Extensions.Http.wasm": "sha256-bqX9l2dLJ0m0IilNsXvbO14i9Lx0oDeudAGIsS3kEAw=",
       "Polly.wasm": "sha256-nqtTJO4ORk0a9aj8aiYClicrbMc0aZVi3iA34o/Gznc=",
-      "SkyCast.wasm": "sha256-tw7NqntZbkJInEq5RMcBuRxRNcpOC3Jn4KEGUqyxS2M=",
+      "SkyCast.wasm": "sha256-eE959dqrmYi75LHIUXmqBxgfHi3aPEBx3FsfmiQs82U=",
       "System.Collections.Concurrent.wasm": "sha256-OFS//vErD6/6RhM3XPrfMUoAU+nmXwiJrzH9Phybads=",
       "System.Collections.wasm": "sha256-oJpAbjdxXlMPMJutBkdyTg7tHjEXHsp6lqiC1Pm1wZU=",
       "System.ComponentModel.wasm": "sha256-uioW3YAgF0V59CXuySz24fyzL/jhbqrRLWYiDaZ1BZ4=",
