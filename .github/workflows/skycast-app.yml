@@ -1,0 +1,61 @@
+name: Build & Deploy BlazorApp
+
+on:
+  push:
+    branches: ["main"]
+
+env: 
+  DOTNET_VERSION: '8.0.x'
+  NODE_VERSION: '22.x'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Clonar el código
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      # 2. Instalar .NET
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      # 3. Instalar Node.js
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      # 4. Cache de paquetes NuGet
+      - name: Cache NuGet
+        uses: actions/cache@v3
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+
+      # 5. Restaurar y publicar Blazor
+      - name: Publicar app Blazor WebAssembly
+        run: |
+          dotnet restore
+          echo "{\"OpenWeather\":{\"Key\":\"${{ secrets.OPENWEATHER_KEY }}\"}}" > appsettings.Production.json
+          dotnet publish SkyCast/SkyCast.csproj -c Release -o publish
+
+      # 6. Verificar contenido generado
+      - name: Ver contenido de publicación
+        run: ls -lR publish
+
+      # 7. Deploy a GitHub Pages (usa wwwroot)
+      - name: Deploy a GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: publish/wwwroot
+          force_orphan: true
