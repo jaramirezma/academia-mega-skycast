@@ -43,10 +43,12 @@ jobs:
             # Restore an publish
             - name: Publicar APP Blazor
               run: |
+                cd SkyCast
                 dotnet restore
                 # Inyectar la API Key
                 echo "{\"OpenWeather\":{\"Key\":\"${{ secrets.OPENWEATHER_KEY }}\"}}" > appsettings.Production.json
-                dotnet publish SkyCast.csproj -c Release -o publish
+                dotnet publish SkyCast.csproj -c Release -o ../publish
+
 
             - name: Listar salida
               run: |
