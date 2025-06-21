@@ -44,9 +44,9 @@ jobs:
       # 5. Restaurar y publicar Blazor
       - name: Publicar app Blazor WebAssembly
         run: |
-          dotnet restore SkyCast/SkyCast.csproj
-          echo "{\"OpenWeather\":{\"Key\":\"${{ secrets.OPENWEATHER_KEY }}\"}}" > SkyCast/appsettings.Production.json
-          dotnet publish SkyCast/SkyCast.csproj -c Release -o publish
+          dotnet restore SkyCast/SkyCast/SkyCast.csproj
+          echo "{\"OpenWeather\":{\"Key\":\"${{ secrets.OPENWEATHER_KEY }}\"}}" > SkyCast/SkyCast/appsettings.Production.json
+          dotnet publish SkyCast/SkyCast/SkyCast.csproj -c Release -o publish
 
       # 6. Verificar contenido generado
       - name: Ver contenido de publicación
