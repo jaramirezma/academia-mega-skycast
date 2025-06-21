@@ -1,0 +1,4 @@
+C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega-skycast\SkyCast\publish\publish\web.config
+C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega-skycast\SkyCast\publish\publish\wwwroot\sample-data\weather.json
+C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega-skycast\SkyCast\publish\publish\wwwroot\_framework\blazor.boot.json
+C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega-skycast\SkyCast\publish\web.config

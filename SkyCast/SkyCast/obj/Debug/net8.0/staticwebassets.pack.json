@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\skyCast\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\skyCast\\obj\\Debug\\net8.0\\compressed\\ahxl25aa3z.gz",
+      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast\\obj\\Debug\\net8.0\\compressed\\ahxl25aa3z.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\skyCast\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SkyCast.styles.css",
+      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SkyCast.styles.css",
       "PackagePath": "staticwebassets\\SkyCast.styles.css"
     },
     {
-      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\skyCast\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\skyCast\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\skyCast\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\skyCast\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\skyCast\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\skyCast\\wwwroot\\index.html",
+      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega\\Modulo_3\\C#\\Sesion_27\\Skycast\\skyCast\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

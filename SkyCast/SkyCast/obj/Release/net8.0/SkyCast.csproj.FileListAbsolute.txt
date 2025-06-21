@@ -4266,3 +4266,6 @@ C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega-skyca
 C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega-skycast\SkyCast\SkyCast\obj\Release\net8.0\refint\SkyCast.dll
 C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega-skycast\SkyCast\SkyCast\obj\Release\net8.0\SkyCast.pdb
 C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega-skycast\SkyCast\SkyCast\obj\Release\net8.0\ref\SkyCast.dll
+C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega-skycast\SkyCast\SkyCast\bin\Release\net8.0\publish\web.config
+C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega-skycast\SkyCast\SkyCast\bin\Release\net8.0\publish\wwwroot\sample-data\weather.json
+C:\Users\jaramirezma\Documents\Javier Ramirez\Cursos\Liderly\academia-mega-skycast\SkyCast\SkyCast\bin\Release\net8.0\publish\wwwroot\_framework\blazor.boot.json
