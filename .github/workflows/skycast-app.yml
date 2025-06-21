@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Clonar el código
+      # 1. Checkout del repositorio
       - name: Checkout del repositorio
         uses: actions/checkout@v4
 
@@ -34,25 +34,25 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
-      # 4. Cache de paquetes NuGet
+      # 4. Cache NuGet
       - name: Cache NuGet
         uses: actions/cache@v3
         with:
           path: ~/.nuget/packages
           key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
 
-      # 5. Restaurar y publicar Blazor
-      - name: Publicar app Blazor WebAssembly
+      # 5. Restaurar y publicar
+      - name: Publicar Blazor WASM
         run: |
           dotnet restore SkyCast/SkyCast/SkyCast.csproj
           echo "{\"OpenWeather\":{\"Key\":\"${{ secrets.OPENWEATHER_KEY }}\"}}" > SkyCast/SkyCast/appsettings.Production.json
-          dotnet publish SkyCast/SkyCast/SkyCast.csproj -c Release -o publish
+          dotnet publish SkyCast/SkyCast/SkyCast.csproj -c Release -o publish /p:StaticWebAssetBasePath=SkyCast
 
       # 6. Verificar contenido generado
-      - name: Ver contenido de publicación
-        run: ls -lR publish
+      - name: Verificar carpeta publish
+        run: ls -laR publish
 
-      # 7. Deploy a GitHub Pages (usa wwwroot)
+      # 7. Deploy a GitHub Pages
       - name: Deploy a GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
