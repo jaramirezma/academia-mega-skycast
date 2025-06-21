@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+4xt/HP4iJo=",
+  "dgSpecHash": "hoTV5CLKGts=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\skycast\\SkyCast.csproj",
+  "projectFilePath": "C:\\Users\\jaramirezma\\Documents\\Javier Ramirez\\Cursos\\Liderly\\academia-mega-skycast\\SkyCast\\SkyCast\\SkyCast.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaramirezma\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.15\\microsoft.aspnetcore.authorization.8.0.15.nupkg.sha512",
     "C:\\Users\\jaramirezma\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.15\\microsoft.aspnetcore.components.8.0.15.nupkg.sha512",
@@ -34,12 +34,11 @@
     "C:\\Users\\jaramirezma\\.nuget\\packages\\microsoft.jsinterop\\8.0.15\\microsoft.jsinterop.8.0.15.nupkg.sha512",
     "C:\\Users\\jaramirezma\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.15\\microsoft.jsinterop.webassembly.8.0.15.nupkg.sha512",
     "C:\\Users\\jaramirezma\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.15\\microsoft.net.illink.tasks.8.0.15.nupkg.sha512",
-    "C:\\Users\\jaramirezma\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.15\\microsoft.net.sdk.webassembly.pack.8.0.15.nupkg.sha512",
+    "C:\\Users\\jaramirezma\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.17\\microsoft.net.sdk.webassembly.pack.8.0.17.nupkg.sha512",
     "C:\\Users\\jaramirezma\\.nuget\\packages\\polly\\7.2.4\\polly.7.2.4.nupkg.sha512",
     "C:\\Users\\jaramirezma\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\jaramirezma\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.6\\system.diagnostics.diagnosticsource.9.0.6.nupkg.sha512",
-    "C:\\Users\\jaramirezma\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
-    "C:\\Users\\jaramirezma\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.15\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.15.nupkg.sha512"
+    "C:\\Users\\jaramirezma\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }
