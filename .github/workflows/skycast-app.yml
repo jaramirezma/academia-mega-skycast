@@ -46,7 +46,7 @@ jobs:
         run: |
           dotnet restore SkyCast/SkyCast/SkyCast.csproj
           echo "{\"OpenWeather\":{\"Key\":\"${{ secrets.OPENWEATHER_KEY }}\"}}" > SkyCast/SkyCast/appsettings.Production.json
-          dotnet publish SkyCast/SkyCast/SkyCast.csproj -c Release -o publish /p:StaticWebAssetBasePath=SkyCast
+          dotnet publish SkyCast/SkyCast/SkyCast.csproj -c Release -o publish --nologo --no-restore -p:StaticWebAssetBasePath=SkyCast
 
       # 6. Verificar contenido generado
       - name: Verificar carpeta publish
